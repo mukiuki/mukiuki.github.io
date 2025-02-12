@@ -4,9 +4,9 @@
 }
 
 body {
-  font-family: 'Lexend', sans-serif;
-  color: #333;
-  line-height: 1.6;
+	font-family: 'Lexend';
+	color: #333;
+	line-height: 1.6;
 }
 
 /* Top Bar */
@@ -241,4 +241,18 @@ body {
 	height: 100%;
 	padding-top: 20px;
 	
+}
+
+h1 {
+	color: #1F1F1F;
+	font-weight: 900;
+	font-size: 6em;
+	letter-spacing: .2em;
+	margin-bottom: -50px;
+	margin-left: -65px;
+}
+
+h2 {
+	margin-bottom: -130px;
+	color:#1F1F1F;
 }
