@@ -47,7 +47,8 @@ body {
 	list-style: none;
 	display: flex;
 	text-align: center;
-	font-family: "Lexend Regular" 
+	font-family: "Lexend" 
+	font-weight: bold;
 }
 
 .navbar .nav-links li {
