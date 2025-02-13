@@ -47,8 +47,7 @@ body {
 	list-style: none;
 	display: flex;
 	text-align: center;
-	font-family: "Lexend" 
-	font-weight: bold;
+
 }
 
 .navbar .nav-links li {
@@ -57,7 +56,7 @@ body {
 
 .navbar .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: #1F1F1F;
   font-weight: bold;
 }
 
@@ -98,18 +97,19 @@ body {
 
 .hero-text h1 span {
   font-size: 50px;
-  font-weight: bold;
 }
 
 /* Services Section */
 .services {
   display: flex;
   text-align: center;
+	margin-top:-10px;
 }
 
 .service-box {
   flex: 1;
   padding: 40px 20px;
+	
 }
 
 .service-box img {
@@ -124,15 +124,26 @@ body {
 
 .service-box.fishing {
   background: #90d7ec;
+  font-family: "lexend";
+  background-image:url("assets/fishing-bg.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+
 }
 
 .service-box.photography {
   background: #333;
   color: #fff;
+	background-image:url("assets/photography-bg.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
 }
 
 .service-box.videos {
   background: #e7d7cb;
+	background-image:url("assets/video-bg.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
 }
 
 /* About Me Section */
@@ -141,6 +152,8 @@ body {
   padding: 50px 20px;
   align-items: center;
   background: #f9f9f9;
+  background-image: url(assets/profile.png);
+  background-size:cover;
 }
 
 .about-text {
@@ -156,7 +169,6 @@ body {
 .about-text h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  font-weight: bold;
 }
 
 .about-text p {
@@ -254,6 +266,6 @@ h1 {
 }
 
 h2 {
-	margin-bottom: -130px;
+	margin-bottom: -55%;
 	color:#1F1F1F;
 }
