@@ -125,7 +125,7 @@ body {
 .service-box.fishing {
   background: #90d7ec;
   font-family: "lexend";
-  background-image:url("/fishing-bg.png");
+  background-image:url("assets/fishing-bg.png");
   background-size: 80%;
   background-repeat: no-repeat;
 
@@ -134,14 +134,14 @@ body {
 .service-box.photography {
   background: #333;
   color: #fff;
-	background-image:url("/photography-bg.png");
+	background-image:url("assets/photography-bg.png");
   background-size: 80%;
   background-repeat: no-repeat;
 }
 
 .service-box.videos {
   background: #e7d7cb;
-	background-image:url("/video-bg.png");
+	background-image:url("assets/video-bg.png");
   background-size: 80%;
   background-repeat: no-repeat;
 }
@@ -154,13 +154,13 @@ body {
   padding: 50px 80px;
   align-items: center;
   background: #f9f9f9;
-  background-image: url(/profile.png);
+  background-image: url(assets/profile.png);
   background-size:cover;
   font-family: "lexend";
 }
 
 .about-text {
-  flex: .3;
+  flex: .5;
 	
 }
 
@@ -270,7 +270,7 @@ h1 {
 }
 
 h2 {
-	margin-bottom: -55%;
+	margin-bottom: -25%;
 	color:#1F1F1F;
 }
 
