@@ -186,14 +186,28 @@
 			</figure>
 		</a>
 		
-		<a href="https://unsplash.com/@dimadallacqua" target="_blank" class="gallery__link">
 			<figure class="gallery__thumb">
-				<img src="https://images.unsplash.com/photo-1586245895595-395fb6ffd945?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Portrait by Dima DallAcqua" class="gallery__image">
+				<img src="https://images.unsplash.com/photo-1586245895595-395fb6ffd945?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Portrait by Dima DallAcqua" class="gallery__image" onclick="openLightbox()">
 				<figcaption class="gallery__caption">Portrait by Dima DallAcqua</figcaption>
 			</figure>
 		</a>
 		</section>
 </div>
+	
+<!-- Lightbox (Hidden by Default) -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img src="large-image.jpg" class="lightbox-content">
+    </div>
 
+    <script>
+        function openLightbox() {
+            document.getElementById("lightbox").style.display = "flex";
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightbox").style.display = "none";
+        }
+    </script>
 </body>
 </html>

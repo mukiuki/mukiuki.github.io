@@ -304,7 +304,7 @@ h5 {
 }
 @media (min-width: 1440px) {
   .gallery {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 .gallery:hover .gallery__image {
