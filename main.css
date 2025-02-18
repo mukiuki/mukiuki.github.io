@@ -388,15 +388,18 @@ section .image-gallery{
   width: 100%;
   background: #fff;
   margin: auto;
+  padding-top:50px;
+ 
 }
 .image-gallery header{
   color: #fff;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 4em;
+  font-weight: 900;
   text-align: center;
-  background: #24292d;
+  background: #1F1F1F;
   padding: 20px 0;
   letter-spacing: 1px;
+  font-family:"lexend";
 }
 .image-gallery .image-container{
   columns: 3;
